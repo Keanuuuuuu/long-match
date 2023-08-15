@@ -1,0 +1,64 @@
+/* 清除浏览器默认样式 */
+/* 基本样式重置 */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, li, dl, dt, dd, figure, table, th, td, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 链接样式重置 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 列表样式重置 */
+ul, ol {
+  list-style: none;
+}
+
+/* 表单元素样式重置 */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* 图像样式重置 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 媒体元素样式重置 */
+audio, canvas, iframe, svg, video {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* 表格样式重置 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 设置基本字体 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* 清除外边距和内边距 */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, li, dl, dt, dd, figure, table, th, td, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置默认背景和前景颜色 */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 添加其他自定义样式 */
+/* ... */
+
