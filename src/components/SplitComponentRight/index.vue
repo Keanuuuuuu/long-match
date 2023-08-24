@@ -1,16 +1,16 @@
 <template>
   <div class="split-component">
     <div class="split-contianer">
-    <div class="text-section" >
-      <div class="text-container">
-        <slot name="text">默认文本内容</slot>
-      </div>
-    </div>
     <div class="image-section">
       <div class="image-container">
         <slot name="image">
           <img src="默认图片路径" alt="默认图片">
         </slot>
+      </div>
+    </div>
+    <div class="text-section" >
+      <div class="text-container">
+        <slot name="text">默认文本内容</slot>
       </div>
     </div>
   </div>
@@ -78,8 +78,8 @@ export default {
     height: 200px;
     background-color: #BF2A12;
     line-height: 200px;
-    font-size: small;
     overflow: auto;
+    font-size: small;
     /* width: 40%; */
   }
 }

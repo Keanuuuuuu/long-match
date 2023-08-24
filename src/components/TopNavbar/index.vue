@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .top-navbar {
   display: flex;
   justify-content: space-around;

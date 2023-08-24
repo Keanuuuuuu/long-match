@@ -15,10 +15,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped> 
 .media-container {
-  width: 35vw;
-  height: 25vw;
+  width: 558px;
+  height: 421px;
   background: #FFFFFF;
   box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.16);
   border-radius: 0px;
@@ -28,12 +28,12 @@ export default {
   align-items: center;
   justify-content: center;
   display: inline-block;
-  margin: 0 20px;
+  margin: 40px 20px;
 }
 
 .media-content {
-  width: 30vw;
-  height: 16vw;
+  width: 514px;
+  height: 329px;
   border-radius: 0px;
   margin: 5px auto;
   opacity: 1;
@@ -44,14 +44,51 @@ export default {
 }
 
 .media-title {
-  width: 35vw;
-  height: 5vw;
+  width: 558px;
+  height: 65px;
   margin: 10px auto;
   font-family: 'Microsoft YaHei-Bold', 'Microsoft YaHei';
   font-weight: bold;
-  line-height: 5vw;
-  font-size: 2vw;
+  line-height: 65px;
+  font-size: 30px;
   color: #3D3D3D;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .media-container {
+  width: 320px;
+  height: 280px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.media-content {
+  width: 310px;
+  height: 180px;
+  border-radius: 0px;
+  margin: 5px auto;
+  opacity: 1;
+  border: 3px solid #AC4747;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-title {
+  width: 320px;
+  height: 30px;
+  margin: 10px auto;
+  font-family: 'Microsoft YaHei-Bold', 'Microsoft YaHei';
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 15px;
+  color: #3D3D3D;
+  text-align: center;
+}
 }
 </style>
