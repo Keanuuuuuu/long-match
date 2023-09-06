@@ -14,6 +14,7 @@
   align-items: center;
   background-color: #8A1805;
   color: white;
+  font-weight: bold;
   height: 60px;
   padding: 0px 50px;
 }

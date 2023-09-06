@@ -72,7 +72,10 @@ export default {
 
 <style scoped>
 .introduce{
-  width: 70%;
+  width: 891px;
+  height: 89px;
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   margin-bottom: 10px;
 }
